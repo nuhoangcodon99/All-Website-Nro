@@ -1,0 +1,3 @@
+vào ServerManager.java
+thêm 1 luồng
+new Thread(ShopS.gI(), "Thread SHOP WEB").start();

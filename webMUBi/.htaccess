@@ -1,0 +1,29 @@
+RewriteEngine on
+ErrorDocument 404 /404
+
+RewriteRule ^404$ 404.html [L]
+RewriteRule ^trang-chu$ index.php [L]
+RewriteRule ^Login$ Auth/Login.php [L]
+RewriteRule ^Bxh$ Others/Top.php [L]
+RewriteRule ^Logout$ Auth/Logout.php [L]
+RewriteRule ^Register$ Auth/Register.php [L]
+RewriteRule ^Api/GetBXH$ api/get-bxh.php [L]
+RewriteRule ^Api/Account$ api/Login.php [L]
+RewriteRule ^Api/ITEMS$ api/Items.php [L]
+RewriteRule ^Profile$ Users/Profile.php [L]
+RewriteRule ^tai-game$ Others/Downloads.php [L]
+RewriteRule ^ChangePassword$ Users/ChangePassword.php [L]
+RewriteRule ^History$ Users/History.php [L]
+RewriteRule ^ADMIN$ Users/Admin/index.php [L]
+RewriteRule ^ADMIN/ACCOUNT$ Users/Admin/account/account.php [L]
+RewriteRule ^ADMIN/EDIT/([0-9]+)$ Users/Admin/account/edit.php?id=$1
+RewriteRule ^ADMIN/DELETE/([0-9]+)$ Users/Admin/account/delete.php?id=$1
+RewriteRule ^ADMIN/ADD_VND$ Users/Admin/account/account_vnd.php [L]
+RewriteRule ^ADMIN/SETTING$ Users/Admin/account/Setting.php [L]
+RewriteRule ^ADMIN/ADD-ITEMS$ Users/Admin/items/add.php [L]
+RewriteRule ^ADMIN/ITEMS$ Users/Admin/items/items.php [L]
+RewriteRule ^ADMIN/ITEMS/EDIT/([0-9]+)$ Users/Admin/items/edit.php?id=$1
+RewriteRule ^ADMIN/ITEMS/DELETE/([0-9]+)$ Users/Admin/items/delete.php?id=$1
+RewriteRule ^SHOPS$ Others/Shop.php [L]
+RewriteRule ^TRANS_ITEMS$ Others/Hiszosi.php [L]
+RewriteRule ^ITEMS_BAG$ Users/items_bag.php [L]

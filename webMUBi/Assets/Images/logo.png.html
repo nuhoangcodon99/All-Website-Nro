@@ -1,0 +1,769 @@
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="title" content="Web đăng kí tải game">
+    <meta name="description" content="Web đăng kí tải game">
+    <meta name="keywords" content="Nro Mubi, Nro, Nro Lậu, Ngọc Rồng, Ngọc Rồng Online, Chú Bé Rồng, Free Thỏi Vàng">
+    <meta name="author" content="Web đăng kí tải game">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index">
+    <meta property="og:title" content="Trang Chủ Game">
+    <meta property="og:description" content="Web đăng kí tải game">
+    <meta property="og:image" content="/Assets/Images/mubiicon">
+    <meta property="og:image:alt" content="THAM GIA NGAY">
+    <link rel="apple-touch-icon" href="mubiicon.html">
+    <link rel="icon" href="mubiicon.html">
+    <link rel="shortcut icon" href="logo.png.html#">
+    <title>Nro Mubi - Trang Chủ</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.5/sweetalert2.all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+    <link href="../Css/bootstrap.min.css" rel="stylesheet">
+    <script src="../Css/bootstrap.min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body class="page-layout-color">
+    <div id="root">
+        <div class="container">
+            <div class="main">
+                <div class="text-center h-auto">
+                    <img src="EYTEQYQEWY.png" class="header-logo" alt="Banner" id="banner">
+                </div>
+                <div id="customToast" class="custom-toast"></div>
+                <div class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24">
+                    <div class="ant-row ant-row-middle header-menu">
+                        <div class="ant-col ant-col-24">
+                            <div class="ant-space ant-space-align-center space-header-menu">
+                                <a href="../../Others/Downloads.html" class="ant-space-item image-button">
+                                    <img src="https://nromubi.com/Assets/Images/\Assets\Images\taigamengay.png" alt="Button Image" style="width: 165px;">
+                                </a>
+                              
+                             <a href="../../Users/Payment.html" class="ant-space-item image-button">
+                                    <img src="https://nromubi.com/Assets/Images/\Assets\Images\napthengay.png" alt="Button Image" style="width: 165px;">
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center justify-content-center row-cols-2 row-cols-lg-6 g-2 g-lg-2 my-1 mb-2">
+                    <div class="col">
+                        <div class="px-2">
+                            <a href="../../index.html">
+                                <img src="https://nromubi.com/Assets/Images/\Assets\Images\trangchu.png" alt="Button Image" style="width: 130px;">
+                            </a>
+                        </div>
+                    </div>
+                  
+                    <div class="col">
+                        <div class="px-2">
+                            <a href="logo.png.html#" data-bs-toggle="modal" data-bs-target="#myModal">
+                                <img src="https://nromubi.com/Assets/Images/\Assets\Images\boxzalo.png" alt="Box Zalo" style="width: 130px;">
+                            </a>
+                        </div>
+                    </div>
+                   
+                </div>
+
+
+
+                <div class="row text-center justify-content-center row-cols-2 row-cols-lg-6 g-2 g-lg-2 my-1 mb-2">
+                                            <div class="col">
+                            <div class="px-2">
+                                <a class="btn btn-menu btn-danger w-100 fw-semibold false" href="../../Auth/Login.html">Đăng nhập</a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="px-2">
+                                <a class="btn btn-menu btn-danger w-100 fw-semibold false" href="../../Auth/Register.html">Đăng
+                                    kí</a>
+                            </div>
+                        </div>
+                                    </div>
+                
+
+
+
+                <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="my-2">
+                                    <a href="https://zalo.me/g/kgckwc140" class="btn btn-menu btn-danger w-100 fw-semibold my-1">Box
+                                        Zalo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+                <script>
+                    document.getElementById("banner").addEventListener("click", function () {
+                        window.location.href = "/"; // Chuyển hướng đến trang chủ khi nhấp vào hình ảnh
+                    });
+                </script>
+
+                <script>
+                    $(document).ready(function () {
+                        // Chỉ thực hiện các hành động khi trang là trang chính ("/", Home)
+                                                    if (window.location.pathname === '/') {
+                                $('#serverModal').modal('show');
+
+                                $(document).click(function (event) {
+                                    if ($(event.target).hasClass('modal')) {
+                                        $('#serverModal').modal('hide');
+                                    }
+                                });
+
+                                $('#serverModal a').click(function () {
+                                    $('#serverModal').modal('hide');
+                                });
+                            }
+                                            });
+                </script>
+
+                <style>
+                    #myModal .modal-content {
+                        background-color: #FCE3C6 !important;
+                    }
+
+                    #myModal a.btn.btn-menu.btn-danger.w-100.fw-semibold.my-1 {
+                        border-radius: 10px;
+                        background-color: #8f34f5 !important;
+                        color: #ffffff !important;
+                        box-shadow: none !important;
+                    }
+
+                    /* Hiệu ứng nhấp nháy 7 màu cho chữ */
+                    @keyframes rainbow {
+
+                        14% {
+                            color: orange;
+                        }
+
+                        28% {
+                            color: yellow;
+                        }
+
+                        48% {
+                            color: pink;
+                        }
+
+                        84% {
+                            color: violet;
+                        }
+
+                    }
+
+                    .rainbow-text {
+                        animation: rainbow 3s infinite;
+                    }
+
+                    /* Hiệu ứng border 7 màu chạy xung quanh nút */
+                    @keyframes rainbow-border {
+                        0% {
+                            border-color: red;
+                        }
+
+                        14% {
+                            border-color: orange;
+                        }
+
+                        28% {
+                            border-color: yellow;
+                        }
+
+                        42% {
+                            border-color: green;
+                        }
+
+                        56% {
+                            border-color: blue;
+                        }
+
+                        70% {
+                            border-color: indigo;
+                        }
+
+                        84% {
+                            border-color: violet;
+                        }
+
+                        100% {
+                            border-color: red;
+                        }
+                    }
+
+                    .rainbow-border {
+                        animation: rainbow-border 1s infinite;
+                    }
+                </style>
+                <style>
+                    .ant-list-item-meta {
+                        display: flex;
+                        flex: 1 1;
+                        align-items: flex-start;
+                        max-width: 100%;
+                    }
+
+                    .ant-list-item-meta-content {
+                        flex: 1 0;
+                        width: 0;
+                        color: rgba(0, 0, 0, .85);
+                    }
+
+                    .ant-list-item-meta-title {
+                        margin-bottom: 4px;
+                        color: rgba(0, 0, 0, .85);
+                        font-size: 14px;
+                        line-height: 1.5715;
+                    }
+
+                    .ant-list-item-meta-description {
+                        color: rgba(0, 0, 0, .45);
+                        font-size: 14px;
+                        line-height: 1.5715;
+                    }
+                </style><style>
+    .text-container {
+        margin-left: 40px; /* Số lượng pixel bạn muốn dịch chữ sang phải */
+    }
+</style>
+<div class="card">
+    <div class="card-body">
+        
+            <div class="card-title h5">Trang chủ</div>
+			
+			    <div class="post-item d-flex align-items-center my-2 justify-content-between">
+                <div class="post-image">
+                    <img src="mubiicon.gif" alt="hd">
+                </div>
+                <div class="ant-list-item-meta">
+                <div class="text-container">
+                        <a href="../../Pages/Others/Sukien1.php.html" style="color: #0d6efd; font-weight: 700 !important;">Sự kiện đua top sức mạnh</a>
+
+                    </div>
+                </div>
+                <div>
+                    <img width="30px" src="tick.png" alt="tick">
+                </div>
+            </div>
+            <div class="mt-4">
+            <div class="post-item d-flex align-items-center my-2 justify-content-between">
+                <div class="post-image">
+                    <img src="mubiicon.gif" alt="hd">
+                </div>
+                <div class="ant-list-item-meta">
+                <div class="text-container">
+                        <a href="../../Pages/Others/Sukien2.php.html" style="color: #0d6efd; font-weight: 700 !important;">Sự kiện đua top nạp</a>
+
+                    </div>
+                </div>
+                <div>
+                    <img width="30px" src="tick.png" alt="tick">
+                </div>
+            </div>
+            
+            <div class="mt-4">       
+            <div class="post-item d-flex align-items-center my-2 justify-content-between">
+                <div class="post-image">
+                    <img src="mubiicon.gif" alt="hd">
+                </div>
+                <div class="ant-list-item-meta">
+                <div class="text-container">
+                        <a href="https://nromubi.com/Assets/Images/\Pages\Others\Sukien.php" style="color: #0d6efd; font-weight: 700 !important;">Hướng dẫn cơ bản</a>
+
+                    </div>
+                </div>
+                <div>
+                    <img width="30px" src="tick.png" alt="tick">
+                </div>
+            </div>
+            <div class="mt-4">
+			  
+            <div class="post-item d-flex align-items-center my-2 justify-content-between">
+                <div class="post-image">
+                    <img src="mubiicon.gif" alt="hd">
+                </div>
+                <div class="ant-list-item-meta">
+                <div class="text-container">
+                        <a href="../../Others/Top.html" style="color: #0d6efd; font-weight: 700 !important;">Bảng Xếp Hạng</a>
+
+                    </div>
+                </div>
+                <div>
+                    <img width="30px" src="tick.png" alt="tick">
+                </div>
+            </div>
+            <div class="mt-4">
+            <div class="mt-4">
+    <div class="table-responsive">
+        <hr>
+        <br>
+        
+        <div class="card-title h5" style="text-align: center;">
+            <img src="Top.png" alt="iconTop" style="display: inline-block; height: 2rem;">
+            <h1 style="display: inline-block; font-size: 1.25rem; line-height: 1.75rem;">BẢNG XẾP HẠNG SỰ KIỆN </h1>
+            <img src="Top.png" alt="iconTop" style="display: inline-block; height: 2rem;">
+        </div>
+        <div class="manage-body">
+            <div class="alert" style="display: flex;">
+            </div>
+            <table class="table table-bordered table-hover" style="margin-top: 5px">
+                <thead class="text-center">
+                    <tr class="border-solid border-2">
+                        <th>TOP</th>
+                        <th>Nhân vật</th>
+                        <th>Điểm</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">1</th>
+                    <th class="border-solid border-2">ssj9k69</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">2</th>
+                    <th class="border-solid border-2">maianh</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">3</th>
+                    <th class="border-solid border-2">pemthue99</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">4</th>
+                    <th class="border-solid border-2">lynchiedun</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">5</th>
+                    <th class="border-solid border-2">thuongcute</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">6</th>
+                    <th class="border-solid border-2">davidphong</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">7</th>
+                    <th class="border-solid border-2">trumtd</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">8</th>
+                    <th class="border-solid border-2">hoangtud1</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">9</th>
+                    <th class="border-solid border-2">pemthue</th>
+                    <th class="border-solid border-2">0</th>
+                </tr>
+                <tr class="border-solid border-2 bg-orange-200">
+                    <th class="border-solid border-2">10</th>
+                    <th class="border-solid border-2">octieuz</th>
+                    <th class="border-solid border-2">0</th>
+                </tr></tbody></table>    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="serverModal" tabindex="-1" aria-labelledby="serverModalLabel" aria-hidden="true"
+    data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="my-2">
+                    <div class="text-center"><img alt="Logo" src="mubi6.gif" class="logo"
+                            style="max-width: 200px;"></div>
+                </div>
+                <div class="text-center fw-semibold">
+                    <div class="mb-2" style="font-size: 14px;">THÔNG BÁO</div>
+                    <div class="mb-2" style="font-size: 11px;">Chào mừng đến với máy chủ <strong>NRO MUBI</strong> hãy truy cập box zalo để cập nhật thêm tin tức nhé
+                    </div>
+
+                    <div class="mt-2">
+                        <a href="https://zalo.me/g/kgckwc140" id="serverTeamButton" target="_blank"
+                            class="btn-rounded btn btn-primary btn-sm" style="padding: 10px;">Box Zalo</a>
+                        <a href= "https://www.facebook.com/profile.php?id=61561238576194"  id="serverTeamButton"
+                            class="btn-rounded btn btn-primary btn-sm" style="margin-left: 20px; padding: 10px;">Fanpage
+                            FB</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="activeModal" tabindex="-1" aria-labelledby="activeModalLabel" aria-hidden="true"
+    data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" style="transform: translateY(-150px);">
+
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-center align-items-center">
+                <div class="my-2 text-center">
+                    <div><img alt="Logo" src="logo.png.html" class="logo" style="max-width: 200px;"></div>
+                    <div class="mt-2">
+                        <h3 style="font-size: 1.27em;">Xác nhận kích hoạt tài khoản</h3>
+                        <h4 style="font-size: 1.1em;">Sau khi kích hoạt, bạn sẽ mở khóa các tính năng giao dịch</h4>
+                        <b style="color: green;">Phí kích hoạt: 10,000 Coin</b>
+                        <div class="mt-2">
+                            <img src="https://nromubi.com/Assets/Images/\Assets\Images\active.png" alt="Kích Hoạt" style="width: 130px; cursor: pointer;"
+                                onclick="activateAccount()">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="codeModalLabel" aria-hidden="true"
+    data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" style="transform: translateY(-150px);">
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-center align-items-center">
+                <div class="my-2 text-center">
+                    <div><img alt="Logo" src="logo.png.html" class="logo" style="max-width: 200px;"></div>
+                    <div class="mt-2">
+                        <h3 style="font-size: 1.27em;">Mã Gift Code Của Game</h3>
+
+                        <div class="gift-codes" style="padding: 10px; background-color: #fdf8da;">
+    <p style="border: 3px solid #bd9c09; background-color: #f8f8f8; font-family: Arial, sans-serif; color: #333;">tanthu</p>
+    <p style="border: 3px solid #bd9c09; background-color: #f8f8f8; font-family: Arial, sans-serif; color: #333;">ngocrong</p>
+    <p style="border: 3px solid #bd9c09; background-color: #f8f8f8; font-family: Arial, sans-serif; color: #333;">thoivang</p>
+    <p style="border: 3px solid #bd9c09; background-color: #f8f8f8; font-family: Arial, sans-serif; color: #333;">nrokiwi</p>
+    <p style="border: 3px solid #bd9c09; background-color: #f8f8f8; font-family: Arial, sans-serif; color: #333;">he2024</p>
+    <!-- Thêm mã gift code khác nếu cần -->
+</div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+
+    function activateAccount() {
+        var status = '<br />
+<b>Warning</b>:  Undefined variable $_Status in <b>C:\xampp\htdocs\Controllers\Footer.php</b> on line <b>87</b><br />
+';
+        var coins = '<br />
+<b>Warning</b>:  Undefined variable $_Coins in <b>C:\xampp\htdocs\Controllers\Footer.php</b> on line <b>88</b><br />
+';
+        var username = '<br />
+<b>Warning</b>:  Undefined variable $_Username in <b>C:\xampp\htdocs\Controllers\Footer.php</b> on line <b>89</b><br />
+';
+
+        fetch('/Api/Active', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                status: status,
+                coins: coins,
+                username: username
+            })
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    showCustomToast(data.message, 'success');
+                } else {
+                    showCustomToast(data.message, 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showCustomToast('Có lỗi xảy ra. Vui lòng thử lại sau.', 'error');
+            });
+    }
+
+
+    function showCustomToast(message, type) {
+        var toast = document.getElementById('customToast');
+        toast.innerText = message;
+        toast.style.display = 'block';
+        toast.classList.remove('alert', 'alert-success', 'alert-danger'); // Xóa các lớp hiện có trước khi thêm lớp mới
+        if (type === 'success') {
+            toast.classList.add('alert', 'alert-success');
+        } else {
+            toast.classList.add('alert', 'alert-danger');
+        }
+
+        // Tự đóng thông báo sau 3 giây
+        setTimeout(function () {
+            toast.style.display = 'none';
+        }, 3000);
+    }
+</script>
+
+
+
+
+<style>
+    .custom-toast {
+        position: fixed;
+        padding: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        color: white;
+        display: none;
+        z-index: 9999;
+    }
+
+    .alert-success {
+        background-color: #28a745;
+    }
+
+    .alert-danger {
+        background-color: #dc3545;
+    }
+
+    .nsotien_logo {
+        height: 120px;
+        width: auto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .nsotien_logo {
+            height: 70px;
+        }
+    }
+
+    .mt-3 a:hover {
+        color: white;
+        background-color: red;
+        border-color: red;
+    }
+
+    .header-logo {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-radius: 10px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .custom-success-alert {
+        background-color: #4CAF50 !important;
+        color: white !important;
+        padding: 10px !important;
+        text-align: center !important;
+        border-radius: 5px;
+    }
+
+    .alert.alert-danger.alert-block {
+        background: none;
+        border-color: transparent;
+        text-align: center;
+    }
+
+    /*a {*/
+    /*    margin: 5px;*/
+    /*}*/
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .age-rule a {
+        background-color: #B4E3FF;
+        color: #F4FFFF !important;
+        border-radius: 10px !important;
+        text-align: center;
+        max-width: 10%;
+        margin: 5px auto;
+        padding: 5px 10px;
+    }
+
+    .age-rule a:hover {
+        background-color: #ffcc99;
+        color: #F4FFFF !important;
+    }
+
+    .page-layout-color {
+        background: #b3afaf url("c6b177d5b33f4f60badf36458a784fca.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+    }
+
+    #serverModal a#serverTeamButton {
+        width: 100% !important;
+
+        margin-bottom: 10px !important;
+
+        align-items: flex-start !important;
+        background-color: #8f34f5 !important;
+        border-color: #8f34f5 !important;
+        border-radius: 10px !important;
+        color: #ffffff !important;
+        display: inline-block !important;
+        font-family: system-ui !important;
+        font-size: 14px !important;
+        line-height: 21px !important;
+        margin: 10px 0px 0px !important;
+        text-align: center !important;
+    }
+
+    #serverModal a#serverTeamButton:hover {
+        background-color: #FF418C !important;
+        border-color: #FF418C !important;
+    }
+
+    #serverModal .mt-2 {
+        color: #212529 !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        margin: 8px 0px 0px !important;
+        text-align: center !important;
+    }
+
+    #serverModal .mb-2 {
+        color: #212529 !important;
+        font-weight: 600 !important;
+        line-height: 30px !important;
+        margin: 0px 0px 8px !important;
+        text-align: center !important;
+    }
+
+    #serverModal .text-center {
+        color: #212529 !important;
+        font-weight: 300 !important;
+        line-height: 24px !important;
+        text-align: center !important;
+    }
+
+    #serverModal img.logo {
+        color: #212529 !important;
+        display: inline !important;
+        font-weight: 300 !important;
+        line-height: 24px !important;
+        text-align: center !important;
+    }
+
+    #serverModal .modal-body {
+
+        outline: 2px solid #000;
+        border-radius: 10px;
+
+        background-color: #FCE3C6 !important;
+        color: #212529 !important;
+        font-weight: 300 !important;
+        line-height: 24px !important;
+
+    }
+
+    #serverModal .modal-content {
+        margin: 2px 127px;
+
+    }
+
+    #serverModal .modal-content p {
+        margin: 9px 30px;
+        line-height: 1.5;
+    }
+
+    #serverModal .modal-content h2 {
+        margin: 9px 30px;
+        line-height: 1.5;
+    }
+
+
+    #serverModal .modal-content font[color="#FF0000"] {
+        color: #FF0000;
+        font-weight: bold;
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        #serverModal html,
+        body {
+            overflow: visible;
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        #serverModal html,
+        body {
+            overflow: visible;
+        }
+
+        #serverModal .modal-body {
+            margin: 0 -36px;
+
+            text-align: center;
+        }
+
+        #serverModal .modal-content {
+            margin: 4px 55px
+        }
+
+        #serverModal .modal-content p {
+            margin: 32px 30px;
+            line-height: 1.5;
+        }
+
+    }
+</style>
+<footer class="pt-4 pt-md-5 border-top">
+    <div class="text-center">
+
+        <p class="fw-bold">Chơi quá 180 phút mỗi ngày sẽ có hại cho sức khỏe</p>
+
+    </div>
+</footer>
+</div>
+
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
+<!--<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/jquery-slim.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.5/sweetalert2.all.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>-->
+</body>
+
+</html>

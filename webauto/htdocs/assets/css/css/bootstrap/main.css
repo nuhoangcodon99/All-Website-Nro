@@ -1,0 +1,141 @@
+.color-main {
+  background-color: #FAF0E6;
+  color: dark;
+}
+
+.bg-main {
+  background-color: #FAF0E6;
+}
+
+.color-forum{
+  background-color: #FAF0E6;
+}
+
+.text-main{
+  color: #FAF0E6;
+}
+
+.btn-main {
+  background-color: #FAF0E6;
+  color: white;
+}
+
+.color-main2 {
+  background-color: #FAF0E6;
+}
+
+.primary {
+  background-color: #3883c4;
+  color: #ffffff;
+}
+
+.warning {
+  background-color: #FAF0E6;
+  color: #ffffff;
+}
+
+.danger {
+  background-color: #FAF0E6;
+  color: white;
+}
+
+.btn-header {
+  background-color: #FAF0E6;
+  color: white;
+  width: 100%;
+}
+
+.btn-header-active {
+  background-color: #FAF0E6;
+  color: white;
+  width: 100%;
+}
+
+#pageHeader a {
+  font-weight: bold;
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+#pageHeader .col {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.box-stt a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.box-stt a:hover {
+  color: black;
+}
+
+.box-stt img {
+  margin-right: 5px;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.box-stt {
+  margin-bottom: 10px;
+
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.page-active {
+  background-color: #FAF0E6;
+  color: white;
+}
+
+.icon-download {
+  width: 85%;
+}
+
+@media (min-width: 991.98px) {
+  #logo {
+    width: 40%;
+  }
+
+  .box-stt {
+    font-size: 15px;
+  }
+
+}
+
+
+
+@media (max-width: 991.98px) {
+  #hour3 {
+    font-size: 8px !important;
+  }
+
+  #logo {
+    width: 80%;
+  }
+
+  .htop {
+    margin-top: 25px;
+  }
+
+  .box-stt {
+    font-size: 13px;
+  }
+
+
+}
+
+@media (max-width: 358px) {
+  .hhtop {
+    margin-top: 7px;
+  }
+}
